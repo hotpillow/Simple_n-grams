@@ -8,18 +8,18 @@ This program tokenizes the text file (splits the text into words) then passes th
 ## How to run 
 ### Setup
 Recommended that this is ran in a virtual environment.
-  - create a virtual environmenet named .env
+  - Create a virtual environmenet named .env
     - $ python3 -m venv .env
-  - enter the virtual environment
+  - Enter the virtual environment
     - $ source .env/bin/activate
-  - install jupyter
+  - Install jupyter
     - Note: To install you may have edit the venv's pyvenv.cfg file in your IDE. Set 'include-system-site-packages' key to true to run the '--system-site-packages' option, otherwise you can leave it be.
     - $ pip install jupyter notebook
   - Additional packages to install: nltk, matplotlib, and numpy
-  - open the notebook
+  - Open the notebook
     - Note: When exiting a jupyter notebook tab (i.e. the code file was opened), click on file >> close and halt. The icon won't be green in the homepage after
     - $ python3 -m jupyter notebook
-  - leave the venv
+  - Leave the venv
     - $ deactivate
 
 ### To start
